@@ -1,0 +1,55 @@
+section#contact{
+  padding: 100px;
+  background-color: #eee;
+}
+section#contact .wrap{    
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+}
+section#contact .wrap::before{
+  content: "";
+}
+section#contact .wrap h2{
+  padding-bottom: 20px;
+  font-size: 100px;
+}
+section#contact .wrap p{
+  padding-top: 15px;
+}
+section#contact .wrap ul{
+  gap: 120px;
+  justify-content: center;
+  padding-top: 45px;
+}
+section#contact .wrap ul li{
+  
+  padding-bottom: 20px;
+}
+section#contact .wrap ul li::before{
+  content: "";
+  display: block;
+  background-image: url(../img/call.svg);
+  height: 73px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+section#contact .wrap ul li:nth-child(1)::before{
+  content: "";
+  display: block;
+  background-image: url(../img/call.svg);
+  height: 73px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 20px;
+}
+section#contact .wrap ul li:nth-child(2)::before{
+  content: "";
+  display: block;
+  background-image: url(../img/mail.svg);
+  height: 73px;
+  background-repeat: no-repeat;
+  background-position: center;
+   margin-bottom: 20px;
+}
