@@ -19,7 +19,7 @@
 - Photoshop
 - illustration
 <h3 align="left">Languages and Tools:</h3>
-<p align="left" style="white-space: pre-line; display: flex;gap: 20px; backgoung-color: #ccc;}">
+<p align="left" style="white-space: pre-line; display: flex; gap: 20px; backgoung-color: #ccc;}">
   <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/></a>
   <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
