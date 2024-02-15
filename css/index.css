@@ -66,10 +66,10 @@ div#title div.wrap{ /* 하위선택자 */
 div#title div.wrap h2 {
   font-family: 'Playfair Display', serif;
   font-size: 200px;
-  padding: 100px 400px;
-  /*! border-top: 1px solid black; */
-  /*! border-bottom: 1px solid black; */
+  /*! padding: 100px; */
   margin: 60px 0 0 0;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 div#title .eng {
