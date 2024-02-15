@@ -32,12 +32,9 @@
 
 
 ## 스크린샷 또는 데모(포트폴리오 웹사이트의 스크린샷을 추가)
-![pf1](https://github.com/pageservice/personal/assets/71798491/040b7316-5c4c-4a09-b7e8-6c54d60ec832)
-![pf2](https://github.com/pageservice/personal/assets/71798491/1a7c723b-1e1b-4cb6-9f45-6b17b89482e9)
+![pf1-accuniq](https://github.com/jwdy02/portfolio/assets/150096227/95e247dd-a603-451f-8f32-92a569626f9a)
+![pf2-lpoint](https://github.com/jwdy02/portfolio/assets/150096227/459ac2c9-9935-4fa1-95be-dfb366a8d2e0)
 
-![pf1-](https://github.com/jwdy02/portfolio/assets/150096227/0933789b-5fd2-4304-b8f0-6a9d5913e215)
-
-![ww](https://github.com/pageservice/personal/assets/71798491/30c357e8-d39b-42e6-9c30-0db7706f73d4)
 
 
 
