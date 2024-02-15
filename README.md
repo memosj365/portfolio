@@ -28,19 +28,23 @@
 - accuniq https://jwdy02.github.io/pf1-accuniq/
 - lpoint https://jwdy02.github.io/pf2-lpoint/
 - hbpaper https://jwdy02.github.io/pf3-hbpaper/
+- hbpaper https://jwdy02.github.io/pf3-hbpaper-re/
 - hitejinro https://jwdy02.github.io/pf4-Hitejinro/
-
+- final kitchen https://jwdy02.github.io/final-kitchen/
+- hanwha https://jwdy02.github.io/hanwha/
 
 ## 스크린샷 또는 데모(포트폴리오 웹사이트의 스크린샷을 추가)
 ![pf1-accuniq](https://github.com/jwdy02/portfolio/assets/150096227/95e247dd-a603-451f-8f32-92a569626f9a)
 ![pf2-lpoint](https://github.com/jwdy02/portfolio/assets/150096227/459ac2c9-9935-4fa1-95be-dfb366a8d2e0)
 ![pf3-hbpaper](https://github.com/jwdy02/portfolio/assets/150096227/27805aec-3544-466a-8560-4d0b3d9c4a1b)
-
-
-
+![pf3-hbpaper-re](https://github.com/jwdy02/portfolio/assets/150096227/92fd2aea-e3df-4eb6-b608-0648f882dd0c)
+![pf4-Hitejinro](https://github.com/jwdy02/portfolio/assets/150096227/0aad2994-d3ff-46f6-ae24-1b1cfeb59092)
+![final kitchen](https://github.com/jwdy02/portfolio/assets/150096227/a89391cc-e142-44a1-8ff7-47047d011dbf)
+![hanwha](https://github.com/jwdy02/portfolio/assets/150096227/5491eeee-e8ed-485e-ba8c-eb8c2ccfac6b)
 
 ## 작성자 정보
-(이메일 주소나 연락처 정보를 추가)
+email : jwdy02#gmailcom
+phone : 010-8986-3870
 
 ## 향후 계획 (선택 사항)
 (추가적인 기능 개발, 디자인 개선, 사용자 피드백 수렴 등)
