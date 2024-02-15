@@ -43,8 +43,8 @@
 ![hanwha](https://github.com/jwdy02/portfolio/assets/150096227/5491eeee-e8ed-485e-ba8c-eb8c2ccfac6b)
 
 ## 작성자 정보
-email : jwdy02@gmailcom
-phone : 010-8986-3870
+- email : jwdy02@gmailcom
+- phone : 010-8986-3870
 
 ## 향후 계획 (선택 사항)
 (추가적인 기능 개발, 디자인 개선, 사용자 피드백 수렴 등)
