@@ -6,17 +6,29 @@ aside {
 aside ul {
   
 }
+aside ul li{
+  width: 16px;
+  height: 16px;
+  position: relative;
+  cursor: pointer;
+}
 aside ul li:not(:last-child) {  
   margin-bottom: 30px;
 }
 aside ul li a {  
   font-size: 0;
   display: block;
-  width: 10px;
-  height: 10px;
-  background-color: white;
+  width: 4px;
+  height: 4px;
+  background-color: black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -2px;
   border-radius: 50%;
 }
-aside ul li:hover a{  
-  box-shadow: 0 0 15px white;
+
+.side{
+  border: 1px solid;
+  border-radius: 50%;
 }

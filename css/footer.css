@@ -22,9 +22,8 @@ footer .top{
   position: absolute;
   right: calc((100% - 1440px) / 2 - 120px);
   top: -150px;
-  box-shadow: 0 0 15px white;
 
-  background-color: ;
+  background-color: black;
 }
 footer .top:before{
   content: "";
