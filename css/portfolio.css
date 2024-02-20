@@ -93,7 +93,7 @@ section#portfolio .wrap .portAni .port ul li span.under{
     margin-left: 67px;
   font-weight: initial;
 }
-section#portfolio .wrap .portAni .port button {   
+section#portfolio .wrap .portAni .port a.button {   
   grid-column: 2;
   grid-row: 3;
   background-color: black;
@@ -104,13 +104,10 @@ section#portfolio .wrap .portAni .port button {
   font-size: 18px;
   font-weight: bold;
   cursor: pointer;
+  line-height: 2.5;
 }
-section#portfolio .wrap .portAni .port button:hover{
-  
+ection#portfolio .wrap .portAni .port a.button:hover{  
   background-color: #8997a9;
-}
-section#portfolio .wrap .portAni .port button a {   
-
 }
 section#portfolio .wrap .portAni .port img {   
   grid-column: 1;
