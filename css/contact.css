@@ -1,12 +1,17 @@
 section#contact{
-  padding: 100px;
   background-color: #eee;
+  box-sizing: border-box;
+  padding-top: 200px;
+  margin-top: 200px;
 }
 section#contact .wrap{    
   text-align: center;
   display: flex;
   flex-direction: column;
-  width: 1000px;
+  justify-content: center;
+  border: 1px solid;
+  height: 500px;
+  box-sizing: border-box;
 }
 section#contact .wrap::before{
   content: "";
@@ -14,18 +19,53 @@ section#contact .wrap::before{
 section#contact .wrap h2{
   padding-bottom: 20px;
   font-size: 100px;
+  /*! border-bottom: 1px solid; */
 }
+section#contact .wrap h2 span{
+  position: relative;
+  animation: conT 1.5s ease infinite;
+}
+@keyframes conT{
+  0% { top: 0; } 
+  50% {top: 10px}
+  100% { top: 0 }
+}
+section#contact .wrap h2 span:nth-child(1){
+  animation-delay: 0.1s;   
+}
+section#contact .wrap h2 span:nth-child(2){
+  animation-delay: 0.2s;   
+}
+section#contact .wrap h2 span:nth-child(3){
+  animation-delay: 0.3s;   
+}
+section#contact .wrap h2 span:nth-child(4){
+  animation-delay: 0.4s;   
+}
+section#contact .wrap h2 span:nth-child(5){
+  animation-delay: 0.5s;   
+}
+section#contact .wrap h2 span:nth-child(6){
+  animation-delay: 0.6s;   
+}
+section#contact .wrap h2 span:nth-child(7){
+  animation-delay: 0.7s;   
+}
+
 section#contact .wrap p{
-  padding-top: 15px;
+  padding-top: 50px;
 }
 section#contact .wrap ul{
-  gap: 120px;
+  gap: 100px;
   justify-content: center;
-  padding-top: 45px;
+  align-items: center;
+  height: 100%;
 }
 section#contact .wrap ul li{
   
   padding-bottom: 20px;
+  /*! width: 100%; */
+  /*! height: 300px; */
 }
 section#contact .wrap ul li::before{
   content: "";

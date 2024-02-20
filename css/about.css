@@ -23,6 +23,31 @@ section#about .wrap h2{
   grid-row: 1;
   text-align: center;
 }
+section#about .wrap h2 span{
+  position: relative;
+  animation: abouT 1.5s ease infinite;
+}
+@keyframes abouT { 
+  0% { top: 0; } 
+  50% {top: 10px}
+  100% { top: 0 } 
+}
+section#about .wrap h2 span:nth-child(1){
+  animation-delay: 0.1s;  
+}
+section#about .wrap h2 span:nth-child(2){
+  animation-delay: 0.2s;  
+}
+section#about .wrap h2 span:nth-child(3){
+  animation-delay: 0.3s;  
+}
+section#about .wrap h2 span:nth-child(4){
+  animation-delay: 0.4s;  
+}
+section#about .wrap h2 span:nth-child(5){
+  animation-delay: 0.5s;  
+}
+
 section#about .wrap p {  
   grid-column: 2;
   grid-row: 2;

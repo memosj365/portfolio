@@ -20,82 +20,106 @@ section#portfolio .wrap h2{
   border-bottom: 1px solid;
   width: 100%;
 }
-section#portfolio .wrap ul.portAni{   
-  margin-top: 28px;
-  padding-top: 50px;
-  padding-bottom: 100px;
-  /*! flex-wrap: wrap; */
-  margin: 0 auto;
-  gap: 20px;
+section#portfolio .wrap h2 span{
+  position: relative;
+  animation: porT 1.5s ease infinite;
 }
-section#portfolio .wrap ul.portAni li{   
-  margin: 0 auto;
+@keyframes porT{
+  0% { top: 0; } 
+  50% {top: 10px}
+  100% { top: 0 }
+}
+section#portfolio .wrap h2 span:nth-child(1){
+  animation-delay: 0.1s;  
+}
+section#portfolio .wrap h2 span:nth-child(2){
+  animation-delay: 0.2s;  
+}
+section#portfolio .wrap h2 span:nth-child(3){
+  animation-delay: 0.3s;  
+}
+section#portfolio .wrap h2 span:nth-child(4){
+  animation-delay: 0.4s;  
+}
+section#portfolio .wrap h2 span:nth-child(5){
+  animation-delay: 0.5s;  
+}
+section#portfolio .wrap h2 span:nth-child(6){
+  animation-delay: 0.6s;  
+}
+section#portfolio .wrap h2 span:nth-child(7){
+  animation-delay: 0.7s;  
+}
+section#portfolio .wrap h2 span:nth-child(8){
+  animation-delay: 0.8s;  
+}
+section#portfolio .wrap h2 span:nth-child(9){
+  animation-delay: 0.9s;  
+}
+section#portfolio .wrap .portAni{   
+  padding: 100px 0;
+}
+section#portfolio .wrap .portAni .port {   
   display: grid;
   grid-template-columns: auto auto;
-  grid-template-rows: auto auto auto auto auto;
-  grid-column-gap: 50px;
-  grid-row-gap: 10px;
+  grid-template-rows: auto auto auto auto;
+  margin: 0 auto;
 }
-section#portfolio .wrap ul.portAni li:not(:first-child){
-  /*! display: none; */
-}
-section#portfolio .wrap ul.portAni li h3{   
+section#portfolio .wrap .portAni .port h3 {   
+
   grid-column: 2;
-  grid-row: 1 /span 2;
-}
-section#portfolio .wrap ul.portAni li h3 a {  
-  color: black;
-  padding: 5px;
+  grid-row: 1;
+  font-size: 50px;
+  margin-bottom: 20px;
   font-weight: bold;
-  font-size: 40px;
 }
-section#portfolio .wrap ul.portAni li p {  
+section#portfolio .wrap .portAni .port ul {   
   grid-column: 2;
-  grid-row: 3;
-}
-section#portfolio .wrap ul.portAni li ul.sub {
-  grid-column: 2;
-  grid-row: 4;
+  grid-row: 2;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  margin: 0 auto;
 }
-section#portfolio .wrap ul.portAni li ul.sub>li {  
-  display: flex;
-  margin: 0;
+section#portfolio .wrap .portAni .port ul li {   
+  font-size: 18px;
+  text-align: left;
+  line-height: 2.5;
 }
-section#portfolio .wrap ul.portAni li span{  
-  grid-column: 2;
-  grid-row: 5;
-}
-section#portfolio .wrap ul.portAni li span button{   
-  cursor: pointer;
-  width: 80px;
-  height: 30px;
-  border-radius: 30px;
+section#portfolio .wrap .portAni .port ul li span {   
   font-weight: bold;
+  margin-right: 17px;
 }
-section#portfolio .wrap ul.portAni li span button a{
+section#portfolio .wrap .portAni .port ul li span.under{
+    margin-left: 67px;
+  font-weight: initial;
+}
+section#portfolio .wrap .portAni .port button {   
+  grid-column: 2;
+  grid-row: 3;
+  background-color: black;
+  width: 300px;
+  height: 50px;
+  border-radius: 30px;
+  justify-self: center;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+section#portfolio .wrap .portAni .port button:hover{
+  
+  background-color: #8997a9;
+}
+section#portfolio .wrap .portAni .port button a {   
 
-  color: black;
 }
-section#portfolio .wrap ul.portAni li img{   
-  width: 400px;
-  border-radius: 20px;
+section#portfolio .wrap .portAni .port img {   
   grid-column: 1;
-  grid-row: 1 / span 6;
+  grid-row: 1 /span 3;
+  width: 450px;
 }
-section#portfolio .wrap ul.portAni li img:hover {  
-  box-shadow: 0 0 15px #999;
+section#portfolio .wrap .slick-prev::before, .slick-next::before{
+  
 }
-section#portfolio .wrap .slick-dots{
-  display: flex;
-  width: 100%;
+section#portfolio .wrap .slick-dots{  
   bottom: 30px;
-}
-
-section#portfolio .wrap .slick-prev::before,
-section#portfolio .wrap .slick-next::before{  
-  font-size: 30px;
-  color: black;
 }

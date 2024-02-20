@@ -24,6 +24,7 @@
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" type="text/javascript"></script>
     <script type="text/javascript">
         $(document).ready(function(){
+        // aside제이쿼리
             $("aside ul li:nth-child(1)").addClass("side");
             $("aside ul li").click(function(){
                     $(this).addClass("side");
@@ -31,7 +32,8 @@
                     return false;
                 }
             );
-        })
+        }
+    )
     </script>
 <!-- 슬릭 -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
@@ -40,6 +42,7 @@
     <script type="text/javascript">
         $(document).ready(
             function(){
+            //포트폴리오 슬라이드
                 $('.portAni').slick({
                     infinite: true, //무한반복옵션
                     slidesToShow: 1, //한 화면에 보여질 컨텐츠 개수
@@ -47,8 +50,8 @@
                     autoplay: true, //자동 스크롤 사용 여부
                     autoplaySpeed: 3000,//자동 스크롤시 다음으로 넘어가는데 걸리는 시간
                     speed:2000, //다음 버튼 누르고 다음 화면 뜨는데까지 걸리는 시간
-                    dots:false, //스크롤바 아래 동그라미 표시 여부
-                    arrows:true //옆으로 이동하는 화살표 표시 여부
+                    dots:true, //스크롤바 아래 동그라미 표시 여부
+                    arrows:false //옆으로 이동하는 화살표 표시 여부
                     }
                 );
             }
@@ -72,7 +75,7 @@
     <!-- 타이틀영역 -->
     <div id="title">
         <div class="wrap">
-            <h2 class="h2">PORTFOLIO</h2>
+            <h2 class="h2"><span>P</span><span>O</span><span>R</span><span>T</span><span>F</span><span>O</span><span>L</span><span>I</span><span>O</span></h2>
         </div>
     </div>
 <!-- 메인영역 -->
@@ -80,7 +83,7 @@
         <!-- 어바웃 -->
         <section id="about" class="paddingT50 paddingB50 vh100">
             <div class="wrap">
-                <h2 class="h2">ABOUT</h2>
+                <h2 class="h2"><span>A</span><span>B</span><span>O</span><span>U</span><span>T</span></h2>
                 <p>" 새로운 도전을 두려워하지 않는 "</p>
                 <img src="img/js.jpg" alt="내사진">
                 <ul class="list">
@@ -94,8 +97,8 @@
         </section>
         <!-- 스킬 --> 
         <section id="skill" class="paddingT50 paddingB50">
-            <div class="wrap paddingT50 paddingB50 paddingL50 paddingR50">
-                <h2 class="h2">sKILL</h2>
+            <div class="wrap">
+                <h2 class="h2"><span>S</span><span>K</span><span>I</span><span>L</span><span>L</span></h2>
                 <ul class="list flex btween">
                     <li>Photoshop</li>
                     <li>illustration</li>
@@ -111,105 +114,99 @@
         <!-- 포트폴리오 -->
         <section id="portfolio" class="paddingT50 paddingB50 vh100">
             <div class="wrap paddingT50  paddingB50 paddingL50 paddingR50">
-                <h2 class="h2">PORTFOLIO</h2>
-                <ul class=" portAni flex">
-                    <li class="portAni1">
-                        <h3><a href="">Accuniq</a></h3>
-                        <p>기업체 홈페이지</p>
-                        <ul class="sub">
-                            <li>#웹표준</li>
-                            <li>#HTML5(emmet)</li>
-                            <li>#CSS3(sass)</li>
-                            <li>#Adobe</li></li>
-                            <li>#참여도100%</li>
+                <h2 class="h2"><span>P</span><span>O</span><span>R</span><span>T</span><span>F</span><span>O</span><span>L</span><span>I</span><span>O</span></h2>
+                <div class=" portAni flex">
+                    <div class="port port1">
+                        <h3>Accuniq</h3>
+                        <ul class="list">
+                            <li><span>TYPE</span>웹사이트 (기업체홈페이지)</li>
+                            <li><span>PAGE</span>index</li>
+                            <li><span>TOOL</span>HTML5(emmet), CSS3(sass),<br>
+                                <span class="under">javaascrit, jqurey, adobe</span></li>
+                            <li><span>work</span>퍼블리싱 100%</li>
                         </ul>
-                        <span><button><a href="">상세보기</a></button><button><a href="">기획서보기</a></button></span>
-                        <img src="img/pf3_hbpaper.png" alt="hbpaper홈페이지">
-                    </li>
-                    <li class="portAni2">
-                        <h3><a href="">Lpoint</a></h3>
-                        <p>기업체 홈페이지</p>
-                        <ul class="sub">
-                            <li>#웹표준</li>
-                            <li>#HTML5(emmet)</li>
-                            <li>#CSS3(sass)</li>
-                            <li>#Adobe</li></li>
-                            <li>#참여도100%</li>
+                        <button><a href="https://jwdy02.github.io/pf1-accuniq/">VIEW</a></button>
+                        <img src="img/accuniq.png" alt="hbpaper홈페이지">
+                    </div>
+                    <div class="port port2">
+                        <h3>Lpoint</h3>
+                        <ul class="list">
+                            <li><span>TYPE</span>웹사이트 (기업체홈페이지)</li>
+                            <li><span>PAGE</span>index</li>
+                            <li><span>TOOL</span>HTML5(emmet), CSS3(sass),<br>
+                                <span class="under">javaascrit, jqurey, adobe</span></li>
+                            <li><span>work</span>퍼블리싱 100%</li>
                         </ul>
-                        <span><button>상세보기</button><button>기획서보기</button></span>
-                        <img src="img/pf3_hbpaper.png" alt="hbpaper홈페이지">
-                    </li>
-                    <li class="portAni3">
-                        <h3><a href="">HBpaper</a></h3>
-                        <p>기업체 홈페이지</p>
-                        <ul class="sub">
-                            <li>#웹표준</li>
-                            <li>#HTML5(emmet)</li>
-                            <li>#CSS3(sass)</li>
-                            <li>#Adobe</li></li>
-                            <li>#참여도100%</li>
+                        <button><a href="https://jwdy02.github.io/pf2-lpoint/">VIEW</a></button>
+                        <img src="img/lpoint.png" alt="hbpaper홈페이지">
+                    </div>
+                    <div class="port port3">
+                        <h3>HBpaper</h3>
+                        <ul class="list">
+                            <li><span>TYPE</span>웹사이트 (기업체홈페이지)</li>
+                            <li><span>PAGE</span>index</li>
+                            <li><span>TOOL</span>HTML5(emmet), CSS3(sass),<br>
+                                <span class="under">javaascrit, jqurey, adobe</span></li>
+                            <li><span>work</span>퍼블리싱 100%</li>
                         </ul>
-                        <span><button>상세보기</button><button>기획서보기</button></span>
-                        <img src="img/pf3_hbpaper.png" alt="hbpaper홈페이지">
-                    </li>
-                    <li class="portAni4">
-                        <h3><a href="">HBpaper-re</a></h3>
-                        <p>기업체 홈페이지</p>
-                        <ul class="sub">
-                            <li>#웹표준</li>
-                            <li>#HTML5(emmet)</li>
-                            <li>#CSS3(sass)</li>
-                            <li>#Adobe</li></li>
-                            <li>#참여도100%</li>
+                        <button><a href="https://jwdy02.github.io/pf3-hbpaper/">VIEW</a></button>
+                        <img src="img/hbpaper.png" alt="hbpaper홈페이지">
+                    </div>
+                    <div class="port port4">
+                        <h3>HBpaper-리뉴얼</h3>
+                        <ul class="list">
+                            <li><span>TYPE</span>반응형 웹사이트 (기업체홈페이지)</li>
+                            <li><span>PAGE</span>index</li>
+                            <li><span>TOOL</span>HTML5(emmet), CSS3(sass),<br>
+                                <span class="under">javaascrit, jqurey, adobe</span></li>
+                            <li><span>work</span>퍼블리싱 100%</li>
                         </ul>
-                        <span><button>상세보기</button><button>기획서보기</button></span>
-                        <img src="img/pf3_hbpaper.png" alt="hbpaper홈페이지">
-                    </li>
-                    <li class="portAni5">
-                        <h3><a href="">Hitejinro</a></h3>
-                        <p>기업체 홈페이지</p>
-                        <ul class="sub">
-                            <li>#웹표준</li>
-                            <li>#HTML5(emmet)</li>
-                            <li>#CSS3(sass)</li>
-                            <li>#Adobe</li></li>
-                            <li>#참여도100%</li>
+                        <button><a href="https://jwdy02.github.io/pf3-hbpaper-re/">VIEW</a></button>
+                        <img src="img/hbpaper_re.png" alt="hbpaper홈페이지">
+                    </div>
+                    <div class="port port5">
+                        <h3>Hitejinro</h3>
+                        <ul class="list">
+                            <li><span>TYPE</span>반응형 웹사이트 (기업체홈페이지)</li>
+                            <li><span>PAGE</span>index</li>
+                            <li><span>TOOL</span>HTML5(emmet), CSS3(sass),<br>
+                                <span class="under">javaascrit, jqurey, adobe</span></li>
+                            <li><span>work</span>퍼블리싱 100%</li>
                         </ul>
-                        <span><button>상세보기</button><button>기획서보기</button></span>
-                        <img src="img/pf3_hbpaper.png" alt="hbpaper홈페이지">
-                    </li>
-                    <li class="portAni6">
-                        <h3><a href="">final kitchen</a></h3>
-                        <p>기업체 홈페이지</p>
-                        <ul class="sub">
-                            <li>#웹표준</li>
-                            <li>#HTML5(emmet)</li>
-                            <li>#CSS3(sass)</li>
-                            <li>#Adobe</li></li>
-                            <li>#참여도100%</li>
+                        <button><a href="https://jwdy02.github.io/pf4-Hitejinro/">VIEW</a></button>
+                        <img src="img/hitejinro.png" alt="hbpaper홈페이지">
+                    </div>
+                    <div class="port port6">
+                        <h3>final kitchen</h3>
+                        <ul class="list">
+                            <li><span>TYPE</span>웹사이트 (기업체홈페이지)</li>
+                            <li><span>PAGE</span>index</li>
+                            <li><span>TOOL</span>HTML5(emmet), CSS3(sass),<br>
+                                <span class="under">javaascrit, jqurey, adobe</span></li>
+                            <li><span>work</span>퍼블리싱 100%</li>
                         </ul>
-                        <span><button>상세보기</button><button>기획서보기</button></span>
-                        <img src="img/pf3_hbpaper.png" alt="hbpaper홈페이지">
-                    </li>
-                    <li class="portAni7">
-                        <h3><a href="">hanwha</a></h3>
-                        <p>기업체 홈페이지</p>
-                        <ul class="sub">
-                            <li>#웹표준</li>
-                            <li>#HTML5(emmet)</li>
-                            <li>#CSS3(sass)</li>
-                            <li>#Adobe</li></li>
-                            <li>#참여도100%</li>
+                        <button><a href="https://jwdy02.github.io/final-kitchen/">VIEW</a></button>
+                        <img src="img/final_kitchen.png" alt="hbpaper홈페이지">
+                    </div>
+                    <div class="port port7">
+                        <h3>hanwha</h3>
+                        <ul class="list">
+                            <li><span>TYPE</span>웹사이트 (기업체홈페이지)</li>
+                            <li><span>PAGE</span>index</li>
+                            <li><span>TOOL</span>HTML5(emmet), CSS3(sass),<br>
+                                <span class="under">javaascrit, jqurey, adobe</span></li>
+                            <li><span>work</span>퍼블리싱 100%</li>
                         </ul>
-                        <span><button><a href="">상세보기</button></a><a href=""><button>기획서보기</a></button></span>
-                        <img src="img/pf3_hbpaper.png" alt="hbpaper홈페이지">
-                    </li>
-                </ul>
+                        <button><a href="https://jwdy02.github.io/hanwha/">VIEW</a></button>
+                        <img src="img/hanwha.png" alt="hbpaper홈페이지">
+                    </div>
+                </div>
             </div>
         </section>
-        <section id="contact" class="flex paddingT50 paddingB50">
+        <!-- 컨택 -->
+        <section id="contact" class="flex paddingT50 paddingB50 vh100">
             <div class="wrap paddingT50  paddingB50">
-                <h2 class="h2">CONTACT</h2>
+                <h2 class="h2"><span>C</span><span>O</span><span>N</span><span>T</span><span>A</span><span>C</span><span>T</span></h2>
                 <p class="p">끝까지 봐주셔서 감사합니다 아직 부족 하지만 더욱 성장하는 모습을 보여드리겠습니다</p>
                 <ul class="flex">
                     <li>010-8986-3870</li>

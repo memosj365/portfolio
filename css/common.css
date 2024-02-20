@@ -1,5 +1,8 @@
+body{
+  background-color: #eee;
+}
 .wrap{
-   width: 1440px;
+   width: 1000px;
    margin: 0 auto;
 }
 .padding50{
