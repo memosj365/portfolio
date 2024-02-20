@@ -1,0 +1,26 @@
+
+@media screen and (max-width:768px){
+/* 헤더 */ 
+  header .wrap{    
+    width: 360px;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  header ul{    
+    display: none;
+  }
+/*  타이틀  */
+  div#title{
+  min-height: 300px;
+  height: 400px;
+}
+  div#title::after{    
+    display: none;
+  }
+  div#title div.wrap{    
+  width: 360px;
+  }
+  div#title div.wrap h2{    
+    font-size: 40px;
+  }
+}
