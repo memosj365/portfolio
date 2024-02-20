@@ -6,6 +6,7 @@ header{   /* 너비지정 */
   width: 100%;
   top: 0;
   background-color: #eee;
+  z-index: 1;
 }
 header .wrap{  
   display: flex;
