@@ -58,6 +58,12 @@ section#portfolio .wrap h2 span:nth-child(9){
 }
 section#portfolio .wrap .portAni{   
   padding: 100px 0;
+  filter: grayscale();
+  cursor: pointer;
+}
+section#portfolio .wrap .portAni:hover{
+  
+  filter: none;
 }
 section#portfolio .wrap .portAni .port {   
   display: grid;
@@ -117,6 +123,7 @@ section#portfolio .wrap .portAni .port img {
   grid-row: 1 /span 3;
   width: 450px;
 }
+
 section#portfolio .wrap .slick-prev::before, .slick-next::before{
   
 }

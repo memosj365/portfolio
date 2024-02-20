@@ -3,6 +3,7 @@ section#contact{
   box-sizing: border-box;
   padding-top: 200px;
   margin-top: 200px;
+  min-height: 700px;
 }
 section#contact .wrap{    
   text-align: center;
