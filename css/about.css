@@ -12,11 +12,9 @@ section#about .wrap{
   grid-template-columns:  auto 1fr;
   grid-template-rows: auto auto auto;
   width: 1000px;
-  /*! width: fit-content; */
 }
 section#about .wrap h2{
   font-size: 100px;
-  text-align: center;
   grid-column: 2;
   padding-bottom: 30px;
   border-bottom: 1px solid;
