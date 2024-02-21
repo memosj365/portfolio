@@ -8,6 +8,19 @@ header{   /* 너비지정 */
   background-color: #eee;
   z-index: 1;
 }
+.headerUP{
+  position: fixed;
+  top: 0;
+  animation-name: up;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+@keyframes up{
+  100%{
+    top: -60px
+  }
+}
 header .wrap{  
   display: flex;
   justify-content: space-between;

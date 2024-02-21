@@ -33,6 +33,21 @@
                     return false;
                 }
             );
+        //스크롤이벤트
+            $(window).scroll(function(){//창을 스크롤하면 실행
+            //스크롤 내리면 헤더 위로 올라가기
+                if($(window).scrollTop()>$("header").height()){
+                    //윈도우의 scrollTop 위치값이 ...보다 크다면
+                    $("header").addClass("headerUP");
+                    //header에 클래스를 붙이시오
+                }else{//조건이 안맞는경우 실행함(윈도우의 윈도우의 scrollTop 위치값이 ...보다 작다면 )
+                    $("header").removeClass("headerUP");
+                }
+            });
+        //top버튼 클릭하면 실행하시오
+            $("footer .top").click(function(){
+                $("html,body").animate({scrollTop:0},1000);
+            });
         }
     )
     </script>
@@ -65,10 +80,10 @@
         <div class="wrap">
             <h1><a href="#">JISU's PORTFOLIO</a></h1>
             <ul>
-                <li><a href="#">about</a></li>
-                <li><a href="#">skill</a></li>
-                <li><a href="#">portfolio</a></li>
-                <li><a href="#">contact</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">skill</a></li>
+                <li><a href="">portfolio</a></li>
+                <li><a href="">contact</a></li>
             </ul>
             <a href="#">메뉴보기</a>
         </div>
