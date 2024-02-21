@@ -20,7 +20,12 @@
     <link rel="stylesheet" href="css/aside.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/responsive.css">
-
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript">   
+        $(document).ready( function() {
+            $("#about").load("about.html");  // 원하는 파일 경로를 삽입하면 된다
+            });
+    </script>
 <!-- 제이쿼리 -->
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" type="text/javascript"></script>
     <script type="text/javascript">
@@ -82,20 +87,7 @@
 <!-- 메인영역 -->
     <main>
         <!-- 어바웃 -->
-        <section id="about" class="paddingT50 paddingB50 vh100">
-            <div class="wrap">
-                <h2 class="h2"><span>A</span><span>B</span><span>O</span><span>U</span><span>T</span></h2>
-                <p>" 새로운 도전을 두려워하지 않는 "</p>
-                <img src="img/about.png" alt="내사진">
-                <ul class="list">
-                    <li>이름 : 최지수</li>
-                    <li>생년월일 : 19990112</li>
-                    <li>거주지 : 경기도 성남시</li>
-                    <li>학력 : 신구대학교 원예디자인과 플로리스트전공</li>
-                    <li>교육 : 모란 이젠it아카데미 웹디자인,웹퍼블리셔 5개월 과정 수료</li>
-                </ul>
-            </div>
-        </section>
+        <section id="about" class="paddingT50 paddingB50 vh100"></section>
         <!-- 스킬 --> 
         <section id="skill" class="paddingT50 paddingB50">
             <div class="wrap">
