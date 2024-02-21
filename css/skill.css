@@ -54,13 +54,26 @@ section#skill .wrap h2 span:nth-child(5){
 }
 section#skill .wrap .left{
   width: 60%;
-  margin-left: 100px;
+  position: relative;
+  margin: 50px auto;
+  position: relative;
+}
+section#skill .wrap .left::before{
+  content: "";
+  border-top: 1px solid;
+  display: block;
+  width: 716.6px;
+  position: absolute;
+  left: -44px;
 }
 section#skill .wrap .left .bar{
-  
+
 }
 section#skill .wrap .left .bar .skill{  
-  line-height: 3;
+  line-height: 2.5;
+}
+section#skill .wrap .left .bar:nth-child(1) .skill{  
+  margin-top: 22px;
 }
 section#skill .wrap .left .bar .outer{  
   height: 1.25em;
