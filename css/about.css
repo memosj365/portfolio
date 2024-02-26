@@ -57,7 +57,7 @@ section#about .wrap img {
   width: 400px;
   grid-column: 1;
   grid-row: 1 / span 3;
-  filter: grayscale();
+  filter: grayscale(0.9);
   cursor: pointer;
 }
 section#about .wrap img:hover{  
