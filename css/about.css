@@ -72,3 +72,7 @@ section#about .wrap ul{
 section#about .wrap ul li{
   line-height: 4;
 }
+section#about .wrap ul li span {  
+  line-height: 4;
+  font-weight: bold;
+}

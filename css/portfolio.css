@@ -88,6 +88,7 @@ section#portfolio .wrap .portAni .port ul li {
 section#portfolio .wrap .portAni .port ul li span {   
   font-weight: bold;
   margin-right: 17px;
+  line-height: 2.5;
 }
 section#portfolio .wrap .portAni .port ul li span.under{
     margin-left: 67px;
